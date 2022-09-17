@@ -55,7 +55,9 @@ const products = [
     {name: 'Polytron 23 Inc', price:70.00, stock:53, rating:7.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"},
     {name: 'LG 23 Inc', price:80.00, stock:60, rating:8.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"},
     {name: 'LG 21 Inc', price:56.00, stock:56, rating:5.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"},
-    {name: 'LED Samsung 23 Inc', price:77.00, stock:45, rating:8.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"}
+    {name: 'LED Samsung 23 Inc', price:77.00, stock:45, rating:8.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"},
+    {name: 'Smsung LCD 45 Inc', price:56.00, stock:56, rating:5.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"},
+    {name: 'Xiaomi 64 Inc', price:89.00, stock:45, rating:8.0, category: "Smart TV", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2021/11/29/c9363c39-d5c2-44bc-bd48-8a6fcffbda8b.jpg"}
 ]
 
 var app = express();
