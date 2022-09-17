@@ -59,7 +59,7 @@ const products = [
 ]
 
 var app = express();
-app.get("/products", (req, res, next) => {
+app.get("/", (req, res, next) => {
     // console.log(products)
     res.json(products);
    });
