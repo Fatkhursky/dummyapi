@@ -1,6 +1,6 @@
 var express = require("express");
 // var products = require ("./product.js")
-
+var cors = require('cors')
 const products = [
     {name: 'Apple XR', price:45.00, stock:25, rating:8.0, category: "Smartphone", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2022/2/12/f5253aaa-203b-4341-8136-825def7b1631.jpg"},
     {name: 'Xiaomi Redmi', price:23.00, stock:75, rating:9.0, category: "Smartphone", img:"https://images.tokopedia.net/img/cache/900/VqbcmM/2022/2/12/f5253aaa-203b-4341-8136-825def7b1631.jpg"},
@@ -59,6 +59,7 @@ const products = [
 ]
 
 var app = express();
+app.use(cors())
 app.get("/", (req, res, next) => {
     // console.log(products)
     res.json(products);
